@@ -6,6 +6,18 @@ Author Name
 :!table-caption:
 :page-pagination:
 :page-component-order: *, abc
+:source-highlighter: highlight.js
+:highlightjs-languages: ruby, perl, lua, go
+
+== Source Code
+
+[source,perl]
+----
+my $name = `whoami`;
+die("error: $!") if defined $name;
+----
+
+== Demo
 
 [.float-group]
 --
@@ -331,3 +343,5 @@ ____
 
 [.text-right]
 That's all, folks!
+
+
